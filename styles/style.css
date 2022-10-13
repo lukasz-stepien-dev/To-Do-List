@@ -6,3 +6,53 @@
     font-size: 10px;
     font-family: 'Merriweather', serif;
 }
+
+body {
+    background-color: #F6E7CB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-wrap: wrap;
+}
+
+p {
+    will-change: opacity;
+    font-size: 8rem;
+    transition: all 0.4s;
+    cursor: pointer;
+    color: #542E71;
+    opacity: 0.5;
+}
+
+p:hover {
+    opacity: 1;
+}
+
+#button {
+    will-change: border, background-color;
+    position: absolute;
+    width: 40%;
+    background-color: #505168;
+    margin-top: 52%;
+    padding: 20px 40px 20px 40px;
+    border-radius: 1rem;
+    border: 5px solid #DCC48E;
+    cursor: pointer;
+    transition: border 0.4s, background-color 0.4s;
+}
+
+#button:hover {
+    border: 5px solid #A3C9A8;
+    background-color: #84B59F;
+}
+
+i {
+    font-size: 5rem;
+    color: #DCC48E;
+}
