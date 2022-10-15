@@ -24,8 +24,16 @@
         <li>Lorem ipsum dolor sit amet consectetur.</li>
         <li>Lorem ipsum dolor sit amet consectetur.</li>
     </ul>
-    <div id="button">
+    <div id="button" data-toggle-id="addTaskWindow">
         <i class="icon-plus"></i>
+    </div>
+    <div id="addTaskWindow">
+        <h1>Type task name</h1>
+        <form action="#">
+            <input type="text" name="taskName" id="taskName" placeholder="Your task name"><br>
+        </form>
+        <input type="button" value="Submit" id="submitButton">
+        <input type="button" value="Cancel" id="cancelButton">
     </div>
     <script src="./scripts/app.js"></script>
 </body>
