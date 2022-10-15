@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    font-size: 10px;
+    font-family: 'Merriweather', serif;
+}
+
+body {
+    background-color: #F6E7CB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+ul {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    bottom: 5%;
+}
+
+li {
+    will-change: opacity;
+    font-size: 8rem;
+    transition: all 0.4s;
+    cursor: pointer;
+    color: #542E71;
+    list-style-type: none;
+    opacity: 0.5;
+}
+
+li:hover {
+    opacity: 1;
+}
+
+#button {
+    will-change: border, background-color, color;
+    position: absolute;
+    width: 40%;
+    background-color: #505168;
+    padding: 20px 40px 20px 40px;
+    border-radius: 1rem;
+    border: 5px solid #DCC48E;
+    text-align: center;
+    cursor: pointer;
+    transition: border 0.4s, background-color 0.4s, color 0.4s;
+    top: 3%;
+    color: #DCC48E;
+
+
+}
+
+#button:hover {
+    border: 5px solid #A3C9A8;
+    background-color: #84B59F;
+    color: #A3C9A8;
+}
+
+i {
+    font-size: 5rem;
+
+}
+
+#showAddTaskWindow {
+    visibility: hidden;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    top: 30vh;
+    width: 40vw;
+    height: 30vh;
+    position: absolute;
+    border-radius: 1.5rem;
+    background-color: #DCC48E;
+    color: #542E71;
+}
+
+h1 {
+    margin-top: 5vh;
+    margin-left: 10vw;
+    font-size: 5rem;
+    width: 100%;
+}
+
+#taskName {
+    width: 100%;
+    height: 6rem;
+    font-size: 3rem;
+    border-radius: 0.7rem;
+    background-color: #542E71;
+    color: whitesmoke;
+}
+
+form {
+    margin-top: 2vh;
+    width: 80%;
+}
+
+input {
+    padding-left: 1rem;
+}
+
+#submitButton, #cancelButton {
+    will-change: background-color;
+    font-size: 1.8rem;
+    height: 4vh;
+    width: 10vw;
+    border-radius: 0.7rem;
+    border: 0.5rem solid #542E71;
+    background-color: #F6E7CB;
+    color: #542E71;
+    transition: background-color 0.4s;
+}
+
+#submitButton {
+    margin-right: 5vw;
+}
+
+#submitButton:hover {
+    background-color: #84B59F;
+}
+
+#cancelButton:hover {
+    background-color: #ffadad;
+}
