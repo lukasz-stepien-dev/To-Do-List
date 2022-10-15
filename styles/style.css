@@ -14,45 +14,53 @@ body {
     align-items: center;
 }
 
-div {
+ul {
+    position: absolute;
     display: flex;
     justify-content: center;
     align-items: flex-end;
     flex-wrap: wrap;
+    bottom: 5%;
 }
 
-p {
+li {
     will-change: opacity;
     font-size: 8rem;
     transition: all 0.4s;
     cursor: pointer;
     color: #542E71;
+    list-style-type: none;
     opacity: 0.5;
 }
 
-p:hover {
+li:hover {
     opacity: 1;
 }
 
 #button {
-    will-change: border, background-color;
+    will-change: border, background-color, color;
     position: absolute;
     width: 40%;
     background-color: #505168;
-    margin-top: 52%;
     padding: 20px 40px 20px 40px;
     border-radius: 1rem;
     border: 5px solid #DCC48E;
+    text-align: center;
     cursor: pointer;
-    transition: border 0.4s, background-color 0.4s;
+    transition: border 0.4s, background-color 0.4s, color 0.4s;
+    top: 3%;
+    color: #DCC48E;
+
+
 }
 
 #button:hover {
     border: 5px solid #A3C9A8;
     background-color: #84B59F;
+    color: #A3C9A8;
 }
 
 i {
     font-size: 5rem;
-    color: #DCC48E;
+
 }
