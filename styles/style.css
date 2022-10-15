@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
 
+/* TO-DO remove scrool bug*/
+
 * {
     box-sizing: border-box;
     margin: 0px;
@@ -17,8 +19,8 @@ body {
 ul {
     position: absolute;
     display: flex;
-    justify-content: center;
-    align-items: flex-end;
+    align-items: center;
+    flex-direction: column;
     flex-wrap: wrap;
     bottom: 5%;
 }
@@ -65,8 +67,7 @@ i {
 
 }
 
-#showAddTaskWindow {
-    visibility: hidden;
+#addTaskWindow {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
