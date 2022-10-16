@@ -83,17 +83,15 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Screenshot]](images/Screenshot.png)
+![Screenshot](images/Screenshot.png)
 
-T
+This is my first To-Do app. I want to it has old-fashion style. In this project I learn arrow functions and do more resposible website. In next project I gonna start with mobile-first because in this project I forget about that.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
 ### Built With
-
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
 
 * [![Next][Next.js]][Next-url]
 * [![React][React.js]][React-url]
