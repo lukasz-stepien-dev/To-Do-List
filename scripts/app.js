@@ -3,7 +3,7 @@ const addTaskWindow = document.getElementById("addTaskWindow");
 const inputTaskName = document.getElementById("taskName")
 addTaskWindow.style.display = "none";
 
-tasks.addEventListener("click", event => {
+tasks.addEventListener("dblclick", event => {
     event.target.remove();
 });
 

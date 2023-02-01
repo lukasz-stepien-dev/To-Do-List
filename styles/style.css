@@ -5,6 +5,7 @@
     margin: 0px;
     font-size: 10px;
     font-family: 'Merriweather', serif;
+    user-select: none;
 }
 
 body {
