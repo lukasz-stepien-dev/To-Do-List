@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+$backgorund-color: #BFC0C0;
+$font-color: #2D3142;
+$hover-color: #FFFFFF;
+$warning-color: #EF8354;
+$task-font-size: 3vw;
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    font-family: 'Raleway', sans-serif;
+}
+
+body {
+    background-color: $backgorund-color;
+    color: $font-color;
+
+    ul {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 0px;
+
+        li {
+            font-size: $task-font-size;
+            padding: 2vw;
+            list-style-type: none;
+            cursor: pointer;
+
+            &::before {
+                will-change: opacity;
+                content: "Lorem ipsum dolor sit amet.";
+                position: absolute;
+                padding: 1vw 3vw;
+                opacity: 0;
+                box-shadow: 
+                    $font-color 0px 0px 5px,
+                    inset gainsboro 0px 0px 10px;
+                background-color: $hover-color;
+                border-radius: 5px;
+                transition: all 0.5s;
+                transform: translate(-3vw, -1vw);
+            }
+
+            &:hover::before {
+                opacity: 1;
+            }
+        }
+    }
+
+    #button {
+
+    }
+}
